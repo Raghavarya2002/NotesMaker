@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">NotesMaker</string>
+    <string name="title">Notes Application</string>
+    <string name="subtitle">Life is too fast don\'t forget anything just note it !!</string>
+    <string name="developed">By Raghav Arya\n Yor Developer is here</string>
 </resources>
