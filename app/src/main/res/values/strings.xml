@@ -3,4 +3,8 @@
     <string name="title">Notes Application</string>
     <string name="subtitle">Life is too fast don\'t forget anything just note it !!</string>
     <string name="developed">By Raghav Arya\n Yor Developer is here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title1">Title</string>
+    <string name="subtitle1">subtitle</string>
 </resources>
