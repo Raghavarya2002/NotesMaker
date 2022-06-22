@@ -20,7 +20,7 @@ class CreateNotesFragment : Fragment() {
         binding = FragmentCreateNotesBinding.inflate(layoutInflater, container, false)
 
         return binding.root
-        //35:35
+        //46:10
     }
 
 
