@@ -29,10 +29,13 @@
     <fragment
         android:id="@+id/editNotesFragment2"
         android:name="com.example.notesmaker.ui.Fragments.EditNotesFragment"
-        android:label="Edit your notes"
+        android:label="Edit your notes.."
         tools:layout="@layout/fragment_edit_notes">
         <action
             android:id="@+id/action_editNotesFragment2_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <argument
+            android:name="data"
+            app:argType="com.example.notesmaker.Model.Notes" />
     </fragment>
 </navigation>

@@ -5,8 +5,11 @@ plugins {
     id 'kotlin-parcelize'
 }
 apply plugin: "androidx.navigation.safeargs.kotlin"
+
 android {
     compileSdk 31
+
+
 
     defaultConfig {
         applicationId "com.example.notesmaker"

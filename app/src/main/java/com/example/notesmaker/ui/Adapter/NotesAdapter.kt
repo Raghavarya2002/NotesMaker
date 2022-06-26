@@ -3,10 +3,12 @@ package com.example.notesmaker.ui.Adapter
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.notesmaker.Model.Notes
 import com.example.notesmaker.R
 import com.example.notesmaker.databinding.ItemNotesBinding
+import com.example.notesmaker.ui.Fragments.HomeFragmentDirections
 
 class NotesAdapter(val requireContext: Context, val notesList: List<Notes>) :
     RecyclerView.Adapter<NotesAdapter.notesViewHolder>() {
@@ -40,6 +42,11 @@ class NotesAdapter(val requireContext: Context, val notesList: List<Notes>) :
             "3" -> {
                 holder.binding.viewPriority.setBackgroundResource(R.drawable.red_dot)
             }
+        }
+
+        holder.binding.root.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToEditNotesFragment2(data)
+            Navigation.findNavController(it).navigate(action)
         }
 
 
