@@ -55,7 +55,7 @@
                 android:layout_height="25dp"
                 android:layout_marginStart="10dp"
                 android:background="@drawable/yellow_dot"
-                android:src="@drawable/ic_baseline_done_24" />
+                 />
 
             <ImageView
                 android:id="@+id/pRed"

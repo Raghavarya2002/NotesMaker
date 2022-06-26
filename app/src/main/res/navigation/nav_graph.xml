@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.notesmaker.ui.Fragments.HomeFragment"
-        android:label="fragment_home"
+        android:label="Notes App"
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_createNotesFragment2"
@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/createNotesFragment2"
         android:name="com.example.notesmaker.ui.Fragments.CreateNotesFragment"
-        android:label="fragment_create_notes"
+        android:label="Add new note"
         tools:layout="@layout/fragment_create_notes">
         <action
             android:id="@+id/action_createNotesFragment2_to_homeFragment"
@@ -29,7 +29,7 @@
     <fragment
         android:id="@+id/editNotesFragment2"
         android:name="com.example.notesmaker.ui.Fragments.EditNotesFragment"
-        android:label="fragment_edit_notes"
+        android:label="Edit your notes"
         tools:layout="@layout/fragment_edit_notes">
         <action
             android:id="@+id/action_editNotesFragment2_to_homeFragment"
