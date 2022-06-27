@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 
-
+//NotesModel
 @Parcelize
 @Entity(tableName = "Notes")
 class Notes(
