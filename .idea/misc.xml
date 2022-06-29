@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/btn_filter_shape.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/delete_sheet.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/edit_txt_shape.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/filter_foreground.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/green_dot.xml" value="0.22552083333333334" />
@@ -20,6 +21,7 @@
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/layout/fragment_edit_notes.xml" value="0.209375" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/layout/fragment_home.xml" value="0.209375" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/layout/item_notes.xml" value="0.209375" />
+        <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/menu/menu.xml" value="0.209375" />
       </map>
     </option>
   </component>

@@ -2,9 +2,8 @@ package com.example.notesmaker.ui.Fragments
 
 import android.os.Bundle
 import android.text.format.DateFormat
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
+import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -14,6 +13,7 @@ import com.example.notesmaker.Model.Notes
 import com.example.notesmaker.R
 import com.example.notesmaker.ViewModel.NotesViewModel
 import com.example.notesmaker.databinding.FragmentEditNotesBinding
+import com.google.android.material.bottomsheet.BottomSheetDialog
 import java.util.*
 
 class EditNotesFragment : Fragment() {
@@ -30,7 +30,7 @@ class EditNotesFragment : Fragment() {
         // Inflate the layout for this fragment
 
         binding = FragmentEditNotesBinding.inflate(layoutInflater, container, false)
-
+        setHasOptionsMenu(true)
         binding.edtTitle.setText(oldNotes.data.title)
         binding.edtSubtitle.setText(oldNotes.data.subTitle)
         binding.edtNotes.setText(oldNotes.data.notes)
@@ -109,5 +109,34 @@ class EditNotesFragment : Fragment() {
             .navigate(R.id.action_editNotesFragment2_to_homeFragment)
     }
 
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.delete_menu, menu)
+        super.onCreateOptionsMenu(menu, inflater)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.menu_delete) {
+            val bottomSheet: BottomSheetDialog =
+                BottomSheetDialog(requireContext(), R.style.BottomSheetStyle)
+            bottomSheet.setContentView(R.layout.dialog_delete)
+
+            val textviewYes = bottomSheet.findViewById<TextView>(R.id.dialog_yes)
+            val textviewNo = bottomSheet.findViewById<TextView>(R.id.dialog_no)
+
+            textviewYes?.setOnClickListener {
+                viewmodel.deleteNotes(oldNotes.data.id!!)
+                Navigation.findNavController(it!!)
+                    .navigate(R.id.action_editNotesFragment2_to_homeFragment)
+            }
+
+            textviewNo?.setOnClickListener {
+                bottomSheet.dismiss()
+            }
+
+            bottomSheet.show()
+        }
+
+        return super.onOptionsItemSelected(item)
+    }
 
 }
