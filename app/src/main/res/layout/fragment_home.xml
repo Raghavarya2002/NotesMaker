@@ -24,8 +24,8 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_margin="5dp"
                 android:id="@+id/allNotes"
                 android:background="@drawable/ic_baseline_filter_list_24"
@@ -75,9 +75,9 @@
                 android:layout_marginStart="10dp"
                 android:background="@drawable/btn_filter_shape"
                 android:fontFamily="@font/regular"
-                android:paddingStart="30dp"
+                android:paddingStart="20dp"
                 android:paddingTop="10dp"
-                android:paddingEnd="30dp"
+                android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
                 android:text="@string/low"
                 android:textColor="@color/green_color"
