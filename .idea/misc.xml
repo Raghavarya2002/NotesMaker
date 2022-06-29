@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/btn_filter_shape.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/edit_txt_shape.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/filter_foreground.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/green_dot.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/ic_baseline_filter_list_24.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/item_notes.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/no_btn.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Upanshu ARYA/AndroidStudioProjects/NotesMaker/app/src/main/res/drawable/red_dot.xml" value="0.22552083333333334" />
