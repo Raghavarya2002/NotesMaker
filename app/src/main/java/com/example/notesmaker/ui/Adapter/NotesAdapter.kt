@@ -10,8 +10,14 @@ import com.example.notesmaker.R
 import com.example.notesmaker.databinding.ItemNotesBinding
 import com.example.notesmaker.ui.Fragments.HomeFragmentDirections
 
-class NotesAdapter(val requireContext: Context, val notesList: List<Notes>) :
+class NotesAdapter(val requireContext: Context, var notesList: List<Notes>) :
     RecyclerView.Adapter<NotesAdapter.notesViewHolder>() {
+
+    fun filtering(newFilteredList: ArrayList<Notes>) {
+        notesList = newFilteredList
+        notifyDataSetChanged()
+    }
+
     class notesViewHolder(val binding: ItemNotesBinding) : RecyclerView.ViewHolder(binding.root) {
 
     }

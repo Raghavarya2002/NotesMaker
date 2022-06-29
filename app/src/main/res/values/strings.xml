@@ -14,4 +14,5 @@
     <string name="no">No</string>
     <string name="yes">Yes</string>
     <string name="are_you_sure_you_want_to_delete_n_this_note">Are you sure, you want to delete\n This Note?</string>
+    <string name="search">Search</string>
 </resources>
