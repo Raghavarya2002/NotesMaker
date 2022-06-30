@@ -10,8 +10,6 @@ Star this repository , if you found this repo useful.
 
 ![Notes4](https://user-images.githubusercontent.com/68361729/176643300-9ac6abbc-786f-4366-a36a-a77662fe61c0.jpg)
 
-![Notes3](https://user-images.githubusercontent.com/68361729/176643308-52cde8ef-2ec7-4adf-9f77-16e6683832a6.jpg)
-
 ![Notes2](https://user-images.githubusercontent.com/68361729/176643312-9d58404e-7919-475c-89e9-0c682b6fe2c7.jpg)
 
 ![Notes12](https://user-images.githubusercontent.com/68361729/176643318-25cfdf2c-55b5-4a97-87b1-b08c1e1114a4.jpg)
