@@ -126,6 +126,8 @@ class EditNotesFragment : Fragment() {
             textviewYes?.setOnClickListener {
                 viewmodel.deleteNotes(oldNotes.data.id!!)
                 bottomSheet.dismiss()
+                Navigation.findNavController(it!!)
+                    .navigate(R.id.action_editNotesFragment2_to_homeFragment)
             }
 
             textviewNo?.setOnClickListener {

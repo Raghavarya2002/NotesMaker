@@ -43,7 +43,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="30dp"
                 android:paddingBottom="10dp"
-                android:text="@string/high"
+                android:text="V. IMP"
                 android:textColor="@color/red_color"
                 android:textSize="18sp"
 
@@ -61,7 +61,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="30dp"
                 android:paddingBottom="10dp"
-                android:text="@string/medium"
+                android:text="IMP"
                 android:textColor="@color/yellow_color"
                 android:textSize="18sp"
 
@@ -79,7 +79,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
-                android:text="@string/low"
+                android:text="Gen"
                 android:textColor="@color/green_color"
                 android:textSize="18sp"
 
