@@ -3,12 +3,12 @@ This is Notes Application based on MVVM architecture in Which you can save your 
 Star this repository , if you found this repo useful.
 
 <a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes1.jpg?raw=true"  height="400" width="100" ></a>
-<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes11.jpg"  height="400" width="100" ></a></a> 
-<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes4.jpg"  height="400" width="100" ></a></a> 
-<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes2.jpg"  height="400" width="100" ></a></a> 
-<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes12.jpg"  height="400" width="100" ></a></a> 
-<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes10.jpg"  height="400" width="100" ></a></a> 
-<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes9.jpg"  height="400" width="100" ></a></a> 
-<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes8.jpg"  height="400" width="100" ></a></a> 
-<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes7.jpg"  height="400" width="100" ></a></a> 
-<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes13.jpg"  height="400" width="100" ></a>
+<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes11.jpg"  height="400" width="200" ></a></a> 
+<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes4.jpg"  height="400" width="200" ></a></a> 
+<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes2.jpg"  height="400" width="200" ></a></a> 
+<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes12.jpg"  height="400" width="200" ></a></a> 
+<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes10.jpg"  height="400" width="200" ></a></a> 
+<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes9.jpg"  height="400" width="200" ></a></a> 
+<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes8.jpg"  height="400" width="200" ></a></a> 
+<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes7.jpg"  height="400" width="200" ></a></a> 
+<a href="url"><img src="https://github.com/Raghavarya2002/NotesMaker/master/Snapshots/Notes13.jpg"  height="400" width="200" ></a>
